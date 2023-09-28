@@ -1,0 +1,17 @@
+.main_ludo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice_btn{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.diceImg{
+    height: 150px;
+    /* background-color: rgb(90, 76, 103); */
+}

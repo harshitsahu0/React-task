@@ -1,0 +1,114 @@
+/* :root{
+    --bgColor: black;
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    transition: 0.5s ease-in;
+}
+
+.main_day19 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mode_btn_class {
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+}
+
+.time_digits {
+    color: black;
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.date {
+    color: #aaa;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.date #span {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    font-size: 12px;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.line {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 65px;
+    width: 3px;
+    transform-origin: bottom center; 
+    transition: all 0.5s ease-in;
+}
+
+
+.line.hour {
+    transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.line.minute {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+}
+
+.line.second {
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+    background-color: #e74c3c;
+}
+
+
+.center-point {
+    background-color: #e74c3c;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.center-point::after {
+    content: '';
+    background-color: var(--bgColor);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+} */

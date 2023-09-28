@@ -1,0 +1,50 @@
+/* body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.main_day4{
+    position: relative;
+    height: 5px;
+}
+
+.main_day4 .input{
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    transition: 0.3s ease;
+}
+
+.main_day4 .input:focus-visible{
+    outline: none;
+}
+
+#btn{
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+
+.main_day4.active #btn {
+    transform: translateX(198px);
+}
+
+.main_day4.active .input {
+    width: 200px;
+} */
