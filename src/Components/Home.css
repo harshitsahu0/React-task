@@ -1,0 +1,44 @@
+.main_home{
+    background-color: rgba(164, 100, 125, 0.575);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_home .textHome{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main_home .textHome h1 span{
+    color: rgba(137, 23, 23, 0.858);
+}
+
+.main_home .textHome p{
+    color: rgb(99, 15, 86);
+}
+
+.main_home .linkBtns {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+.linkrow{
+    justify-content: center;
+}
+
+.Btnlnk{
+    display: block;
+    margin: auto;
+    border: none;
+    margin-bottom: 15px;
+    padding: 5px 3px 5px 3px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #222;
+}

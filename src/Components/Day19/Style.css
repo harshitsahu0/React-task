@@ -1,10 +1,10 @@
-/* :root{
+:root{
     --bgColor: black;
 }
 
 
 
-body {
+.super_main_day19 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,4 +111,4 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-} */
+}

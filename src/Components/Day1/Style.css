@@ -1,14 +1,10 @@
-/* body{
+
+#main_dayFirst{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
-
-#main_dayFirst{
-    display: flex;
-    width: 90vw;
 }
 .images{
     width: 90px;
@@ -38,4 +34,4 @@
 .images.active h3{
     opacity: 1;
     transition: 0.3s ease-in 0.4s;
-} */
+}

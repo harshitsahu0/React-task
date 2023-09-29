@@ -4,130 +4,6 @@ import "./Style.css"
 import img from './sidekiqmountain.jpg';
 
 const Day26 = () => {
-    // const [sliderHeight, setSliderHeight] = useState();
-
-    // const [mainSlide, setMainSlide] = useState();
-    // const [slideRight,setSlideRight] = useState();
-    // const [slideLeft, setSlideLeft] = useState();
-    // const [slidesLength, setSlidesLength] = useState();
-
-    // const  allDiv= useRef(null);
-    // const mainDiv = useRef(null);
-    // const leftSlide = useRef(null);
-    // const rightSlide = useRef(null);
-
-
-    // // useEffect(()=>{
-    // //     setMainSlide(document.querySelector('.main_day26'));
-    // //     setSlideRight(document.querySelector('.right-slide'));
-    // //     setSlideLeft(document.querySelector('.left-slide'));
-    // //     setSlidesLength(slideRight.querySelectorAll('div').length)
-    // // },[]);
-
-    // // const mainFunc = (direction) => {
-    // //     console.log("hit");
-
-    // //     const sliderContainer = document.querySelector('.main_day26')
-    // //     const slideRight = document.querySelector('.right-slide')
-    // //     const slideLeft = document.querySelector('.left-slide')
-    // //     // const upButton = document.querySelector('.up-button')
-    // //     // const downButton = document.querySelector('.down-button')
-    // //     const slidesLength = slideRight.querySelectorAll('div').length
-    // //     // const slidesLength = slideRight.getElementsByClassName("right-divs").length;
-
-    // //     let activeSlideIndex = 0
-
-    // //     slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`
-
-    // //     const changeSlide = (direction) => {
-    // //         // const sliderHeight = sliderContainer.clientHeight
-
-    // //         setSliderHeight(sliderContainer.clientHeight);
-
-    // //         if (direction === 'up') {
-    // //             activeSlideIndex++
-    // //             if (activeSlideIndex > slidesLength - 1) {
-    // //                 activeSlideIndex = 0
-    // //             }
-    // //         } else if (direction === 'down') {
-    // //             activeSlideIndex--
-    // //             if (activeSlideIndex < 0) {
-    // //                 activeSlideIndex = slidesLength - 1
-    // //             }
-    // //         }
-
-    // //         slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
-    // //         slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
-    // //     }
-
-
-    // //     changeSlide(direction);
-    // //     console.log(direction);
-    // // }
-
-
-    // console.log("==================================");
-    // // const mainSlide = document.querySelector('.main_day26');
-    // const slideRight = document.querySelector('.right-slide');
-    // // const slideLeft = document.querySelector('.left-slide');
-    // // const slidesLength = slideRight.querySelectorAll('div').length
-    // const slidesLength = document.querySelectorAll(".right-slide div").length;
-
-
-    // // const mainSlide = document.getElementById("main_day26");
-
-    // // const slideRight = document.getElementById("slide-right");
-    // // const slideLeft = document.getElementById("slide-left");
-
-    // // const slidesLength = allDiv.curren
-
-
-    // const mainSlide = mainDiv.current;
-
-    // // const slidesLength =rightSlide.current;
-
-
-    // // const slideRight = rightSlide.current;
-    // const slideLeft = leftSlide.current;
-    // debugger
-
-
-    // let activeSlideIndex = 0;
-
-    // // slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
-
-    // // console.log(mainSlide.clientHeight);
-
-    // const changeSlide = (direction) => {
-    //     // const sliderHeight = mainSlide.clientHeight
-
-    //         const sliderHeight = window.clientHeight;
-    //     if (direction === 'up') {
-    //         activeSlideIndex++
-    //         if (activeSlideIndex > slidesLength - 1) {
-    //             activeSlideIndex = 0
-    //         }
-    //     } else if (direction === 'down') {
-    //         activeSlideIndex--
-    //         if (activeSlideIndex < 0) {
-    //             activeSlideIndex = slidesLength - 1
-    //         }
-    //     }
-    //     slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
-    //     slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
-    // }
-    // // const handleBtnDown = () => {
-    // //     const slideRight = document.getElementById("slide-right");
-    // //     const slideLeft = document.getElementById("slide-left");
-
-    // //     slideLeft.style.transform = `translateY(${370}px)`;
-    // // };
-
-    // const handleBtnUp = () => {
-
-    // };
-
-
     const [sliderContainer, setSliderContainer] = useState();
     const [slideRight, setSlideRight] = useState();
     const [slideLeft, setSlideLeft] = useState();
@@ -135,7 +11,6 @@ const Day26 = () => {
     let [activeSlideIndex, setActiveSlideIndex] = useState();
 
     const handleSlideChange = () => {
-     // console.log("hit");
 
         const sliderContainer = document.querySelector('.main_day26')
         setSliderContainer(sliderContainer);
@@ -148,9 +23,6 @@ const Day26 = () => {
         let activeSlideIndex = 0;
         setActiveSlideIndex(activeSlideIndex)
         slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`
-    
-        // debugger
-        // changeSlide(direction);
     }
 
     const changeSlide = (direction) => {

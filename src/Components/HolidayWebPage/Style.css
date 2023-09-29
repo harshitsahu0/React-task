@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .bgDiv {
     background-color: rgba(80, 152, 181, 0.562);
     padding: 50px 0px 34px 0px;
@@ -17,7 +22,7 @@
 
 .bgDiv #h1 {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 50px;
     text-shadow: 0px 10px 8px white;
@@ -53,6 +58,7 @@
     color: white;
     border-radius: 10px;
     margin-top: 20px;
+    padding: 0px 5px 0px 5px;
 }
 
 #searchInput {
@@ -83,7 +89,7 @@
     background-color: rgba(215, 210, 204, 0.653);
     border-radius: 10px;
     box-shadow: 1px 10px 10px 5px rgba(25, 25, 40, 0.475);
-
+    margin-left: -20px;
 }
 
 .imgDiv_inner p {

@@ -1,11 +1,11 @@
-/* body{
+/* #super_main_day2{
     background-color: #f6f7fb;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
+} */
 
 #main_day2{
     text-align: center;
@@ -78,4 +78,4 @@
 .btn:disabled{
     background-color: #e0e0e0;
     cursor: not-allowed;
-} */
+}

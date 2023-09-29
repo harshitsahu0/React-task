@@ -14,13 +14,12 @@ const Day4 = () => {
             setShow(1);
         }
     }
-
-    
-
   return (
+    <div className='super_main_day4'>
     <div className='main_day4'>
       <input type="text" className='input' id='input' placeholder='Search...'/>
       <button id='btn' onClick={handleShow}><i className='fas fa-search'></i></button>
+    </div>
     </div>
   )
 }

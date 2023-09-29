@@ -49,22 +49,6 @@ const Holiday = () => {
                         </div>
                     </nav>
                 </div>
-                {/* <div className='row'>
-                    <div className='col-lg-8 col-sm-4 col-md-6 navDiv'>
-                        <nav className='navbarlink'>
-                            <ul>
-                                <li>Home</li>
-                                <li>Templates</li>
-                                <li>gallery</li>
-                                <li>Blog</li>
-                                <li>About</li>
-                                <li>Contact</li>
-                                <input type="text" name="" id="searchInput" placeholder='Enter keyword here...' />
-                                <button>GO</button>
-                            </ul>
-                        </nav>
-                    </div>
-                </div> */}
                 <div className='row imgDivRow'>
                     <div className='col-lg-9 col-sm-12 col-md-12 imgDiv'>
                         <div className='row imgRow'>
@@ -88,7 +72,6 @@ const Holiday = () => {
                             </div>
                             <div className='col-lg-8 col-sm-12 col-md-6'>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, possimus. <span>Qui deserunt dolore rerum aperiam?</span>  Voluptates ea <span>consectetur</span>  culpa recusandae iure iusto delectus <span>consequuntur</span> excepturi, ipsa distinctio <span>aperiam obcaecati quo est,</span> totam aliquid eius corrupti saepe placeat ut error? Corporis ab id eaque hic quas. Deleniti nihil expedita harum architecto?</p>
-
                                 <button>READ MORE</button>
                             </div>
                         </div>
@@ -104,7 +87,6 @@ const Holiday = () => {
                                 </ul>
                             <hr />
                             </div>
-                            {/* <hr /> */}
                             <div className='col-lg-6 col-sm-12 col-md-6 spec'>
                                 <div class="vertical"></div>
                                 <div className='right-content-div'>

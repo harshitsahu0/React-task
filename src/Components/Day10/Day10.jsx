@@ -19,7 +19,6 @@ const Day10 = () => {
     getJoke();
   },[])
 
-
   return (
     <div className='main_day10'>
       <div className='content_div'>

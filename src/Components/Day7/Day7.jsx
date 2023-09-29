@@ -19,15 +19,17 @@ const Day7 = () => {
   }
 
   return (
+    <div className='super_main_day7'>
     <div className='main_day7'>
       <div className='split left' onMouseEnter={handleLeftEnter} onMouseOut={handleLeftOut}>
         <h1>Playstation 5</h1>
-        <button className='btn'>Buy Now</button>
+        <button className='btn_day7'>Buy Now</button>
       </div>
       <div className='split right' onMouseEnter={handleRightEnter} onMouseOut={handleRightOut}>
         <h1>XBox Series X</h1>
-        <button className='btn'>Buy Now</button>
+        <button className='btn_day7'>Buy Now</button>
       </div>
+    </div>
     </div>
   )
 }

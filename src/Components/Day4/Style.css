@@ -1,4 +1,4 @@
-/* body{
+.super_main_day4{
     background-color: blueviolet;
     display: flex;
     align-items: center;
@@ -47,4 +47,4 @@
 
 .main_day4.active .input {
     width: 200px;
-} */
+}

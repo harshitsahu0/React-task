@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-body {
+.super_main_day8 {
     background-color: steelblue;
     font-family: 'Muli', sans-serif;
     color: #fff;
@@ -76,12 +76,12 @@ body {
 
 }
 
-.text {
+.text_day8 {
     margin-top: 30px;
 }
 
-.text a {
+.text_day8 a {
     text-decoration: none;
     color: lightblue;
     margin-left: 5px;
-} */
+}

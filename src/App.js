@@ -24,53 +24,37 @@ import Day40 from './Components/Day40/Day40';
 import Day26 from './Components/Day26/Day26';
 import Logical from './Components/Logical';
 import Chess from './Components/ChessTask/Chess';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import Home from './Components/Home';
 
 function App() {
-  return (
-    <div className='App'>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      {/* <FirstDay/> */}
-      {/* <Day2/> */}
-      {/* <Day3/> */}
-      {/* <Day4/> */}
-      {/* <Day5/> */}
-      {/* <Day6/> */}
-      {/* <Day61/> */}
-      {/* <Day7/> */}
-      {/* <Day8/> */}
-      {/* <Day9/> */}
-      {/* <Day10/> */}
-      {/* <Day16/> */}
-      {/* <Day19/> */}
-      {/* <Day20/> */}
-      {/* <Day25/> */}
-      {/* <Day26/> */}
-      {/* <Day39/> */}
-      {/* <Day40/> */}
-
-      {/* <Holiday/> */}
-
-      {/* <Ludo/> */}
-
-      {/* <Demo/>  */}
-
-      {/* <Logical/> */}
-
-      <Chess/>
-    </div>
+  return ( 
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Day1' element={<FirstDay/>}/>
+          <Route path='/Day2' element={<Day2/>}/>
+          <Route path='/Day3' element={<Day3/>}/>
+          <Route path='/Day4' element={<Day4/>}/>
+          <Route path='/Day5' element={<Day5/>}/>
+          <Route path='/Day6' element={<Day6/>}/>
+          <Route path='/Day6_2nd' element={<Day61/>}/>
+          <Route path='/Day7' element={<Day7/>}/>
+          <Route path='/Day8' element={<Day8/>}/>
+          <Route path='/Day9' element={<Day9/>}/>
+          <Route path='/Day10' element={<Day10/>}/>
+          <Route path='/Day16' element={<Day16/>}/>
+          <Route path='/Day19' element={<Day19/>}/>
+          <Route path='/Day20' element={<Day20/>}/>
+          <Route path='/Day25' element={<Day25/>}/>
+          <Route path='/Day26' element={<Day26/>}/>
+          <Route path='/Day39' element={<Day39/>}/>
+          <Route path='/Day40' element={<Day40/>}/>
+          <Route path='/Holiday' element={<Holiday/>}/>
+          <Route path='/Ludo' element={<Ludo/>}/>
+          <Route path='/chess' element={<Chess/>}/>
+        </Routes>
+      </BrowserRouter>
   );
 }
 

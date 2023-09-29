@@ -34,9 +34,7 @@ const Day16 = () => {
         setGlass1(false)
         glassid1.style.backgroundColor = "#ffffffe6";
         glassid1.style.color = "blue";
-        // setLitersRemain(litersRemain + 0.25);
         main_glass.style.height ="0px";
-
 
         glassid2.style.backgroundColor = "#ffffffe6";
         glassid2.style.color = "blue";
@@ -81,8 +79,6 @@ const Day16 = () => {
         setLitersRemain(litersRemain + 0.25);
         main_glass.style.height = main_glass.offsetHeight - 45 + "px";
 
-
-
         glassid3.style.backgroundColor = "#ffffffe6";
         glassid3.style.color = "blue";
 
@@ -116,19 +112,14 @@ const Day16 = () => {
         glassid2.style.color = "white";
         glassid3.style.backgroundColor = "#6ab3f8";
         glassid3.style.color = "white";
-        // const litersRemaining = glass1? litersRemain- 0.25 : litersRemain-0.50;
-        // setLitersRemain(litersRemaining);
         main_glass.style.height = glass1==true&&glass2==true ? main_glass.offsetHeight + 45 + "px" : main_glass.offsetHeight + 135 + "px";
       }else{
         setGlass3(false)
-        // setGlass3(false)
         glassid3.style.backgroundColor = "#ffffffe6";
         glassid3.style.color = "blue";
         setLitersRemain(litersRemain + 0.25);
         main_glass.style.height = main_glass.offsetHeight - 45 + "px";
 
-
-        
         glassid4.style.backgroundColor = "#ffffffe6";
         glassid4.style.color = "blue";
 
@@ -160,17 +151,13 @@ const Day16 = () => {
         glassid3.style.color = "white";
         glassid4.style.backgroundColor = "#6ab3f8";
         glassid4.style.color = "white";
-        // const litersRemaining = glass1? litersRemain- 0.25 : litersRemain-0.50;
-        // setLitersRemain(litersRemaining);
         main_glass.style.height = glass1==true&&glass2==true && glass3===true? main_glass.offsetHeight + 45 + "px" : main_glass.offsetHeight + 180 + "px";
       }else{
         setGlass4(false)
-        // setGlass3(false)
         glassid4.style.backgroundColor = "#ffffffe6";
         glassid4.style.color = "blue";
         setLitersRemain(litersRemain + 0.25);
         main_glass.style.height = main_glass.offsetHeight - 45 + "px";
-
 
         glassid5.style.backgroundColor = "#ffffffe6";
         glassid5.style.color = "blue";
@@ -183,8 +170,6 @@ const Day16 = () => {
 
         glassid8.style.backgroundColor = "#ffffffe6";
         glassid8.style.color = "blue";
-
-
 
       }
     }else if(e.target.id === "small-cup5"){
@@ -204,12 +189,9 @@ const Day16 = () => {
         glassid4.style.color = "white";
         glassid5.style.backgroundColor = "#6ab3f8";
         glassid5.style.color = "white";
-        // const litersRemaining = glass1? litersRemain- 0.25 : litersRemain-0.50;
-        // setLitersRemain(litersRemaining);
         main_glass.style.height = glass1==true&&glass2==true && glass3===true&& glass4===true? main_glass.offsetHeight + 45 + "px" : main_glass.offsetHeight + 225 + "px";
       }else{
         setGlass5(false)
-        // setGlass3(false)
         glassid5.style.backgroundColor = "#ffffffe6";
         glassid5.style.color = "blue";
         setLitersRemain(litersRemain + 0.25);
@@ -244,17 +226,13 @@ const Day16 = () => {
         glassid5.style.color = "white";
         glassid6.style.backgroundColor = "#6ab3f8";
         glassid6.style.color = "white";
-        // const litersRemaining = glass1? litersRemain- 0.25 : litersRemain-0.50;
-        // setLitersRemain(litersRemaining);
         main_glass.style.height = glass1==true&&glass2==true && glass3===true && glass4===true&& glass5===true? main_glass.offsetHeight + 45 + "px" : main_glass.offsetHeight + 270 + "px";
       }else{
         setGlass6(false)
-        // setGlass3(false)
         glassid6.style.backgroundColor = "#ffffffe6";
         glassid6.style.color = "blue";
         setLitersRemain(litersRemain + 0.25);
         main_glass.style.height = main_glass.offsetHeight - 45 + "px";
-
 
         glassid7.style.backgroundColor = "#ffffffe6";
         glassid7.style.color = "blue";
@@ -285,12 +263,9 @@ const Day16 = () => {
         glassid6.style.color = "white"; 
         glassid7.style.backgroundColor = "#6ab3f8";
         glassid7.style.color = "white";
-        // const litersRemaining = glass1? litersRemain- 0.25 : litersRemain-0.50;
-        // setLitersRemain(litersRemaining);
         main_glass.style.height = glass1==true&&glass2==true && glass3===true&& glass4===true&& glass5===true&& glass6===true? main_glass.offsetHeight + 45 + "px" : main_glass.offsetHeight + 315 + "px";
       }else{
         setGlass7(false)
-        // setGlass3(false)
         glassid7.style.backgroundColor = "#ffffffe6";
         glassid7.style.color = "blue";
         setLitersRemain(litersRemain + 0.25);
@@ -325,85 +300,16 @@ const Day16 = () => {
         glassid7.style.color = "white";
         glassid8.style.backgroundColor = "#6ab3f8";
         glassid8.style.color = "white";
-        // const litersRemaining = glass1? litersRemain- 0.25 : litersRemain-0.50;
-        // setLitersRemain(litersRemaining);
         main_glass.style.height = glass1==true&&glass2==true && glass3===true&& glass4===true&& glass5===true&& glass6===true&& glass7===true? main_glass.offsetHeight + 45 + "px" : main_glass.offsetHeight + 360 + "px";
       }else{
         setGlass8(false)
-        // setGlass3(false)
         glassid8.style.backgroundColor = "#ffffffe6";
         glassid8.style.color = "blue";
         setLitersRemain(litersRemain + 0.25);
         main_glass.style.height = main_glass.offsetHeight - 45 + "px";
       }
     }
-    // if (litersRemain == 0.25) {
-    //   document.getElementById("liters").style.display = "none";
-    //   document.getElementById("remained").style.display = "none";
-    // }
-
   }
-
-
-
-// const smallCups = document.querySelectorAll('.small-cup')
-// const listers = document.getElementById('liters')
-// const percentage = document.getElementById('percentage')
-// const remained = document.getElementById('remained')
-
-// const smallCup = useRef();
-// const lister = useRef();
-// const percentages = useRef();
-// const remaineds = useRef();
-
-
-// updateBigCup()
-
-// smallCups.forEach((cup, idx) => {
-//   // debugger
-//     cup.addEventListener('click', () => highlightCups(idx))
-// })
-
-// const highlightCups = (e,idx) => {
-//   debugger
-//     if(smallCups[idx].classList.contains('full') && !smallCups[idx].nextElementSibling.classList.contains('full')) {
-//         idx--
-//     }
-
-//     smallCups.forEach((cup, idx2) => {
-//         if(idx2 <= idx) {
-//             cup.classList.add('full')
-//         } else {
-//             cup.classList.remove('full')
-//         }
-//     })
-
-//     updateBigCup()
-// }
-
-// function updateBigCup() {
-//     const fullCups = document.querySelectorAll('.small-cup.full').length
-//     const totalCups = smallCups.length
-
-//     if(fullCups === 0) {
-//       // percentage.style.visibility = 'hidden'
-//         // percentage.style.height = 0
-//     } else {
-//       percentages.current.style.visibility = 'visible'
-//       percentages.current.style.height = `${fullCups / totalCups * 330}px`
-//       percentages.current.innerText = `${fullCups / totalCups * 100}%`
-//     }
-
-    // if(fullCups === totalCups) {
-    //   remaineds.current.style.visibility = 'hidden'
-    //   remaineds.current.style.height = 0
-    // } else {
-    //   remaineds.current.style.visibility = 'visible'
-    //   lister.current.innerText = `${2 - (250 * fullCups / 1000)}L`
-    // }
-// }
-
-
   return (
     <div className='main_day16'>
       <h1>Drink Water</h1>
@@ -427,33 +333,7 @@ const Day16 = () => {
         <div className='cup small-cup' id='small-cup8' onClick={(e) => handleClick(e,glass8)}>250 ml</div>
       </div>
     </div>
-
-    // <div className='main_day16'>
-    //   <h1>Drink Water</h1>
-    //   <h3>Goal: 2 Liters</h3>
-    //   <div className='cup'>
-    //     <div className='remained' id='remained' ref={remaineds}>
-    //       <span id='liters' ref={lister}></span>
-    //       <small id='remained'>Remained</small>
-    //     </div>
-    //     <div className='percentage' id='percentage' ref={percentages}></div>
-    //   </div>
-    //   <p className='text'>Select how many glasses of water that you have drank</p>
-    //   <div className='all-Small-cups'>
-    //     <div className='cup small-cup' id='small-cup1' ref={smallCup}  onClick={(e)=>highlightCups(e,0)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup2' ref={smallCup} onClick={(e)=>highlightCups(e,1)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup3' ref={smallCup} onClick={(e)=>highlightCups(e,2)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup4' ref={smallCup} onClick={(e)=>highlightCups(e,3)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup5' ref={smallCup} onClick={(e)=>highlightCups(e,4)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup6' ref={smallCup} onClick={(e)=>highlightCups(e,5)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup7' ref={smallCup} onClick={(e)=>highlightCups(e,6)}>250 ml</div>
-    //     <div className='cup small-cup' id='small-cup8' ref={smallCup} onClick={(e)=>highlightCups(e,7)}>250 ml</div>
-    //   </div>
-    // </div>
   )
 }
-
-
-
 
 export default Day16

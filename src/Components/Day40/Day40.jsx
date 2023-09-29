@@ -7,11 +7,6 @@ const Day40 = () => {
     const [show, setShow] = useState(false);
 
     const handleMagic = () => {
-        // const beforeBox = document.styleSheets[0].cssRules[5];
-        // const afterBox = document.styleSheets[0].cssRules[6];
-        // console.log("hit");
-        // beforeBox.style.display = "block";
-        // afterBox.style.display = "block";
         const boxes = document.getElementById("boxes");
         if(show){
             boxes.setAttribute("class", "boxes");
@@ -20,8 +15,6 @@ const Day40 = () => {
             boxes.setAttribute("class", "boxes big");
             setShow(true);
         }
-        console.log("hit")
-
     }
 
   return (

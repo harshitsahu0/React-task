@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Style.css';
+import './Day3.css';
 import Img from './Img/dogImg.jpg'
 
 const Day3 = () => {
@@ -15,7 +15,7 @@ const Day3 = () => {
   }
 
   return (
-    <>
+    <div className='super_main_day3'>
     <div className='Main_container'>
       <div className='triangle-container'>
         <div className='triangle'>
@@ -23,7 +23,7 @@ const Day3 = () => {
           <button id='open' onClick={handleOpen}><i className='fas fa-bars'></i></button>
         </div>
       </div>
-      <div className='content'>
+      <div className='content_day3'>
         <h1>Amazing Article</h1>
         <small>Florin Pop</small>
         <p>
@@ -34,7 +34,7 @@ const Day3 = () => {
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero deleniti rerum quo, incidunt vel consequatur culpa ullam. Magnam facere earum unde harum. Ea culpa veritatis magnam at aliquid. Perferendis totam placeat molestias illo laudantium? Minus id minima doloribus dolorum fugit deserunt qui vero voluptas, ut quia cum amet temporibus veniam ad ea ab perspiciatis, enim accusamus asperiores explicabo provident. Voluptates sint, neque fuga cum illum, tempore autem maxime similique laborum odio, magnam esse. Aperiam?</p>
       </div>
     </div>
-    <nav>
+    <nav className='navbar_day3'>
       <ul>
         <li>
           <i className='fas fa-home'></i>Home
@@ -43,7 +43,7 @@ const Day3 = () => {
         <li><i class="fas fa-envelope"></i>Contact</li>
       </ul>
     </nav>
-    </>
+    </div>
   )
 }
 
