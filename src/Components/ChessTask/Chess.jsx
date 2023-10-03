@@ -5,16 +5,12 @@ const Chess = () => {
   let [inptValue, setInptValue] = useState();
   let [smallBoxes, setSmallBoxes] = useState([]);
 
-
   useState(() => {
     for (let i = 0; i < 64; i++) {
       setSmallBoxes((current) => [...current, i]);
     }
   }, [])
-  // for(let i = 0; i < 65;i++) {
-  //   setSmallBoxes([...smallBoxes,i]);
-  // }
-  // console.log(smallBoxes);
+
   function handleclick() {
     let allColumnDiv = document.querySelectorAll(".chessboard div")
     if (inptValue) {

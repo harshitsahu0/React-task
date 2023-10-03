@@ -135,10 +135,8 @@ const Demo = () => {
     str += "\n";
   }
 
-
   console.log(str);
   console.log(finalStr);
-
 
 
   // let arr = [];
@@ -169,7 +167,6 @@ const Demo = () => {
 
   //   console.log(arr);
   //   console.log("Number of door which are still open : ",count);
-
 
   return (
     <div style={{ width: "100%", border: "1px solid red" }}>

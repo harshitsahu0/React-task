@@ -5,7 +5,6 @@ import Img from './Img/dogImg.jpg'
 
 const Day3 = () => {
 
-
   const handleClose = () => {
     document.getElementsByClassName("Main_container")[0].setAttribute("class","Main_container")
   }

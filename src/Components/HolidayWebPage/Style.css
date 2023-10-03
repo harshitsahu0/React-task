@@ -264,6 +264,7 @@ body{
 
     .main_content_div p {
         margin-top: 15px;
+        margin-left: 0;
     }
 
     .right-content-div {
@@ -326,7 +327,7 @@ body{
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1000px) {
     .contentDiv{
         margin: 0px;
     }

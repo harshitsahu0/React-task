@@ -21,8 +21,7 @@ const Ludo = () => {
         document.getElementById("dice_btn").style.rotate = rotate+"deg";
         setRotate(rotate+360);
     }
-
-
+    
     return (
         <div className='main_ludo'>
             <button className='dice_btn' id='dice_btn' onClick={handleDice}>

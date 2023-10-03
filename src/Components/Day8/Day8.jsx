@@ -3,7 +3,6 @@ import './Style.css'
 const Day8 = () => {
   return (
     <div className='super_main_day8'>
-
       <div className='main_day8'>
         <h1>Please Login</h1>
         <form>

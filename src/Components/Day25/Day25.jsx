@@ -3,7 +3,6 @@ import "./Style.css";
 const Day25 = () => {
 const navRef = useRef(null)
 
-
 useEffect(()=>{
         const handleScroll = () => {
             const nav=document.getElementById("nav");

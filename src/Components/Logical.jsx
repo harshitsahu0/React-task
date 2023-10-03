@@ -27,8 +27,6 @@ const Logical = () => {
         h++;
     }
 
-
-
     console.log(finalArr);
     var final = "";
     for(var i = 0; i < finalArr.length; i++){
